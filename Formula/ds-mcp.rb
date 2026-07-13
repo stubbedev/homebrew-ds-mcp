@@ -1,26 +1,26 @@
 class DsMcp < Formula
   desc "Multi-engine data-source MCP server (MySQL, Postgres, SQLite, DuckDB, MSSQL, ClickHouse, MongoDB, Redis)"
   homepage "https://github.com/stubbedev/ds-mcp"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.4/ds-mcp_v0.3.4_aarch64-apple-darwin.tar.gz"
-      sha256 "9918ae9895c944827dd9693ece2b555e4fe4cb002c6a8d70f7294a3bf4c9816b"
+      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.5/ds-mcp_v0.3.5_aarch64-apple-darwin.tar.gz"
+      sha256 "3ff2d0b1e31daf72e9d206b6dc4dfcb9b5451bb3a039873654fe82f7018a1366"
     else
-      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.4/ds-mcp_v0.3.4_x86_64-apple-darwin.tar.gz"
-      sha256 "a5cbea90b68afcd75eaf1fdcccb172e5ced80f9cfdf213bfe00cd859ec8ab496"
+      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.5/ds-mcp_v0.3.5_x86_64-apple-darwin.tar.gz"
+      sha256 "2be4edd2220449f9545817bdd54311a98f667be85defc516cfba141b574c3abc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.4/ds-mcp_v0.3.4_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0cf820c1711aecbda802e0799fa5364ea964fbce919f0f6ebbab11a082ccae60"
+      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.5/ds-mcp_v0.3.5_aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cafe55247a0a589a71bb3fb00a278e2d1800a10d106b2f292abec1e597e9a728"
     else
-      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.4/ds-mcp_v0.3.4_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1b5634cd33025d66e5bfef4aee4e88fbfb4260daa01eeb57936d8259c5240696"
+      url "https://github.com/stubbedev/ds-mcp/releases/download/v0.3.5/ds-mcp_v0.3.5_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "637431cfff754345253354e4b5c6c5c9709f58ce4441a040aa86972677c12fc5"
     end
   end
 
